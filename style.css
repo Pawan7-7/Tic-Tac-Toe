@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -40,8 +40,8 @@ nav ul {
   background-color: rgb(254, 247, 242);
 }
 .gameInfo {
+  font-family: "Rubik Maze", cursive;
   padding: 0 2.125rem;
-  font-family: cursive;
 }
 .imgbox img {
   display: none;
