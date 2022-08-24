@@ -9,3 +9,5 @@ const changeTurn = () => {
 };
 //Function to check for a win
 const checkWin = () => {};
+
+//Logic for game
