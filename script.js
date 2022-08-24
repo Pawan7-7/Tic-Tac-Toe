@@ -19,7 +19,7 @@ Array.from(boxes).forEach((element) => {
   element.addEventListener("click", (e) => {
     if (boxtext.innerText === "") {
       boxtext.innerText = turn;
-      changeTurn();
+      turn = changeTurn();
       audioturn.play();
       checkWin();
       document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
