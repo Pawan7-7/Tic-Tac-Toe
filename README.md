@@ -6,3 +6,5 @@ This will be tic tac toe game
 
 https://www.w3schools.com/jsref/jsref_from.asp
 https://www.javascripttutorial.net/es6/javascript-array-from/
+
+# left work : to make who won!!!
