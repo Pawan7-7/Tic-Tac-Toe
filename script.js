@@ -1,7 +1,7 @@
 console.log("Welcome to Tic Tac Toe");
 let music = new Audio("music.mp3");
 let audioTurn = new Audio("ting.mp4");
-let gameover = new Audio("gameover.mp3");
+let gameover = new Audio("gameover.mp4");
 let turn = "X";
 let isgameover = false;
 
@@ -35,6 +35,7 @@ const checkWin = () => {
       document
         .querySelector(".imgbox")
         .getElementsByTagName("img")[0].style.width = "200px";
+      gameover.play();
       document.querySelector(
         ".line"
       ).style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`;
